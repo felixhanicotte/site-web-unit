@@ -1,10 +1,244 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: UNIT, le club de sport 2.0
 ---
 
-<div class="welcome text-center padded">
-  <h1>You're <a href="https://www.lewagon.com">Le Wagon</a>'s boilerplate!</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<!-- wrapper -->
+	<div id="wrapper-home" class="container text-center wrapper">
+		<h1>UNIT, le club de sport 2.0</h1>
+		<p>Fini l'engagement, finis les gros prix : enfin du <strong>sport accessible</strong> pour tous !</p>
+		<div class="text-center padded-top">
+			<%= link_to "Trouve la séance de tes rêves !", "seances.html", class: "btn btn-primary btn-lg" %>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<%= image_tag "google-soon.png" %>
+			</div>
+			<div class="col-xs-6">
+				<%= image_tag "apple-soon.png" %>
+			</div>
+		</div> 
+	</div>
+
+<!-- description -->
+	<div id="quoi-home" class="container padded bg-white">
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<img src="/images/man-thinking.png" alt="qu'est-ce que c'est ?">
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h2 class="text-center">UNIT rend le sport accessible</h2>
+				<p>UNIT révolutionne la conception du sport :</p>
+				<p><span><i class="fa fa-long-arrow-right" aria-hidden="true"></i> dans son accès :</span> 1h30 de coaching sans abonnement ni engagement pour 5,50€ en moyenne </p>
+				<p><span><i class="fa fa-long-arrow-right" aria-hidden="true"></i> dans son organisation :</span> faire du sport n'a jamais été aussi simple grâce à l'app et la géolocalisation</p>
+				<p><span><i class="fa fa-long-arrow-right" aria-hidden="true"></i> dans sa pratique :</span> allier divertissement, prouesses sportives, conseils persos et rencontre</p>
+			</div>
+		</div>
+		<div class="text-center">
+			<%= link_to "Trouve la séance de tes rêves !", "seances.html", class: "btn btn-primary btn-lg" %>
+		</div>
+	</div>
+
+<!-- fonctionnement -->
+	<div id="fonctionnement-home" class="container padded bg-blue fonctionnement">
+		<div class="app-text text-center">
+			<h2>Fonctionnement de l'app</h2>
+			<p>Grâce à l'app simple et intuitive, faire du sport n'a jamais été aussi simple</p>
+		</div>
+
+		<div class="application row">
+			<div class="col-xs-12 col-md-5">
+				<div id="rechercher-photo" class="application-photo">
+					<img src="/images/rechercher.png" alt="">
+				</div>
+				<div id="reserver-photo" class="application-photo">
+					<img src="/images/reserver.png" alt="">
+				</div>
+				<div id="avis-photo" class="application-photo">
+					<img src="/images/avis.png" alt="">
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-7">
+				<ul class="list-unstyled">
+					<li>
+						<div id="rechercher-text" class="application-text active">
+							<a href="#photo1">
+							<h3 id="rechercher-header">1. Cherche ta séance</h3>
+							<p id="rechercher-p">Grâce à la géolocalisation, trouve la séance de tes rêves sans aucune contrainte</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div id="reserver-text" class="application-text">
+							<a href="#photo2">
+							<h3 id="reserver-header">2. Réserve-la !</h3>
+							<p id="reserver-p">Choisis celle que tu veux, et dès qu'un groupe est constitué, il ne reste plus qu'à aller s'éclater</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div id="avis-text" class="application-text">
+							<a href="#photo3">
+							<h3 id="avis-header">3. Paye et donne ton avis</h3>
+							<p id="avis-p">Grâce à Lemon Way, tu payes en ligne et ton avis est important à nos yeux</p>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- avantages -->
+	<div id="avantages-home" class="container padded text-center bg-white avantages">
+		<h2>Pourquoi utiliser UNIT ?</h2>
+		<div class="row">
+			<ul class="list-unstyled">
+				<div class="col-xs-12 col-sm-6 col-md-4 carte-avantages">
+					<li>
+						<%= image_tag "flexibilite.png" %>
+						<h4>Flexibilité</h4>
+						<p>Fini l'engagement, l'abonnement, l'inscription : fais le sport qui te plait quand ca te plait !</p>
+					</li>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 carte-avantages">
+					<li>
+						<%= image_tag "petits-prix.png" %>
+						<h4>Petits prix</h4>
+						<p>La séance coute de 4 à 8€ : plus vous êtes, moins vous payez... Motive tes potes !</p>
+					</li>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 carte-avantages">
+					<li>
+						<%= image_tag "rencontre.png" %>
+						<h4>Rencontre</h4>
+						<p>Parce que tu peux aussi rencontrer des potes sans t'afficher dans toutes les soirées</p>
+					</li>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 carte-avantages">
+					<li>
+						<%= image_tag "conseils-persos.png" %>
+						<h4>Conseils persos</h4>
+						<p>Les séances sont en petits groupes et l'Animateur UNIT est là pour te faire progresser</p>
+					</li>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 carte-avantages">
+					<li>
+						<%= image_tag "divertissement.png" %>
+						<h4>Divertissement</h4>
+						<p>Les séances sont ludiques, et tu peux t'amuser tout en te dépensant !</p>
+					</li>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 carte-avantages">
+					<li>
+						<%= image_tag "communautaire.png" %>
+						<h4>Communauté</h4>
+						<p>Note ton Animateur et prends en compte l'avis des autres Uniters pour assurer la qualité</p>
+					</li>
+				</div>
+			</ul>
+		</div>
+		<div class="text-center padded-top">
+			<%= link_to "Trouve la séance de tes rêves !", "seances.html", class: "btn btn-primary btn-lg" %>
+		</div>
+	</div>
+
+<!-- vidéo de présentation -->
+<!--	<div id="video-presentation" class="bg-blue text-center padded">
+		<h2>Vidéo de présentation</h2>
+		<iframe src="https://www.youtube.com/embed/itfwPkWOKak" frameborder="0" allowfullscreen></iframe>
+	</div>
+-- >
+<!-- testimonials -->
+	<div id="testimonials" class="text-center padded bg-grid">
+		<h2>Ils en parlent mieux que nous... :)</h2>
+		
+		<div id="testimonials-uniters">
+			<div class="container">
+				<div class="row">
+					<ul class="list-unstyled text-center">
+						<li class="margin-top">
+							<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="testimonial">
+									<img src="/images/hugo_e.jpg" alt="photo du témoignage Uniter" class="img-circle img-testimonial">
+									<h5 class="text-left name-testimonial">Hugo E.</h5>
+									<h5 class="text-left note-testimonial"><em>" A refaire ! "</em></h5>
+									<p class="quote-testimonial"><em>" Séance de circuit training au top : une bonne ambiance et de très belles rencontres malgré l'intensité ! "</em></p>
+								</div>
+							</div>
+						</li>
+						<li class="margin-top">
+							<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="testimonial">
+									<img src="/images/louise.jpg" alt="photo du témoignage Uniter" class="img-circle img-testimonial">
+									<h5 class="text-left name-testimonial">Louise L.</h5>
+									<h5 class="text-left note-testimonial"><em>" Bon plan ! "</em></h5>
+									<p class="quote-testimonial"><em>" Super séance de Fitness au parc de la tête d'or avec des rencontres au top ! "</em></p>
+								</div>
+							</div>
+						</li>
+						<li class="margin-top">
+							<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="testimonial">
+									<img src="/images/louise.jpg" alt="photo du témoignage Uniter" class="img-circle img-testimonial">
+									<h5 class="text-left name-testimonial">Louise L.</h5>
+									<h5 class="text-left note-testimonial"><em>" Bon plan ! "</em></h5>
+									<p class="quote-testimonial"><em>" Super séance de Fitness au parc de la tête d'or avec des rencontres au top ! "</em></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center padded-top bg-grid">
+			<%= link_to "Trouve la séance de tes rêves !", "seances.html", class: "btn btn-primary btn-lg" %>
+		</div>
+	</div>
+
+<!-- Modal 
+	<div class="modal fade com-uniters" id="com-uniters" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+		    <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Bienvenue cher Uniter !</h4>
+		    </div>
+	    	<div class="modal-body">   
+				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+				<div id="mc_embed_signup">
+					<form action="//unit-sport.us13.list-manage.com/subscribe/post?u=94de85b124e04fadb2f10d1e5&amp;id=4855dc46bb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    	<div id="mc_embed_signup_scroll">
+							<div class="indicates-required">
+								<span class="asterisk">*</span> indicates required
+							</div>
+							<div class="mc-field-group form-group">
+								<label for="mce-FNAME">Prénom <span class="asterisk">*</span></label>
+								<input type="text" value="" name="FNAME" class="form-control" placeholder="Zinédine" id="mce-FNAME">
+							</div>
+							<div class="mc-field-group">
+								<label for="mce-LNAME">Nom <span class="asterisk">*</span></label>
+								<input type="text" value="" name="LNAME" class="form-control" placeholder="Zidane" id="mce-LNAME">
+							</div>
+							<div class="mc-field-group">
+								<label for="mce-EMAIL">Email <span class="asterisk">*</span></label>
+								<input type="email" value="" name="EMAIL" class="required email form-control" placeholder="zinédine.zidane@gmail.com" id="mce-EMAIL">
+							</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+						    	<input type="text" name="b_94de85b124e04fadb2f10d1e5_4855dc46bb" tabindex="-1" value="">
+						    </div>
+						    <div class="clear">
+						    	<input type="submit" value="Rejoindre !" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+						    </div>
+						</div>
+					</form>
+				</div>
+			</div>
+	  	</div>
+	  </div>
+	</div>
+-->

@@ -1,0 +1,30 @@
+- name: Lucas
+  sport: Musculation
+  niveau: Champion
+  objectif: Se dépasser
+  descriptif: Une heure de sport en extérieur, musculation avec le poids du corps afin de vous en circuit training
+  date: 27 janvier à 18h
+  lieu: Porte des enfants du Rhône 
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  typeform: https://unitsport.typeform.com/to/arFiS3
+  coordonnes: 45.7772282,4.845212199999992
+- name: Felix
+  sport: Fitness
+  niveau: Pas mauvais
+  objectif: Pour le fun
+  descriptif: Une heure de détente dans les locaux de STAPS pour vous étirer de votre mauvaise semaine
+  date: 30 janvier à 19h
+  lieu: Université Claude Bernard
+  adresse: https://www.google.fr/maps/place/45%C2%B046'52.5%22N+4%C2%B051'48.1%22E/@45.78124,4.8626287,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.78124!4d4.86336
+  typeform: https://unitsport.typeform.com/to/arFiS3
+  coordonnes: 45.78124,4.8626287
+- name: Liza
+  sport: Yoga
+  niveau: Champion
+  objectif: Pour maigrir
+  descriptif: Une séance de Yoga pour vous étirer de votre longue semaine
+  date: 30 janvier à 19h
+  lieu: Au domicile de Liza
+  adresse: https://www.google.fr/maps/place/22+Rue+d'Alg%C3%A9rie,+69001+Lyon/@45.7674918,4.8314339,18z/data=!3m1!4b1!4m5!3m4!1s0x47f4eafe5e11400f:0x8b0098902bdbac60!8m2!3d45.7676195!4d4.832494
+  typeform: https://unitsport.typeform.com/to/arFiS3
+  coordonnes: 45.7674918,4.8314339

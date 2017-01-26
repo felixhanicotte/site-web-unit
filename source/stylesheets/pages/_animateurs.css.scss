@@ -1,9 +1,9 @@
-#wrapper-home {
+#wrapper-anim {
 	background: linear-gradient(135deg,
 								rgba(255, 255, 0, 0.2) 0%,
 								rgba(20, 68, 83, 0.5) 30%,
 								rgba(255, 255, 0, 0.2) 95%),
-				url('../images/background-image.jpg');
+				url('../images/background_anim.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 35vh;
@@ -37,7 +37,7 @@
 	}
 }
 
-#quoi-home {
+#quoi-anim {
 	img {
 		width: 300px;
 	}
@@ -46,51 +46,6 @@
 	}
 	.btn {
 	margin-top: 30px;
-	}
-}
-
-.application a {
-	text-decoration: none;
-	color:white;
-	&:hover {
-	text-decoration: none;
-	}
-}
-
-.application-photo {
-	flex : 0 0 auto;
-	position: relative;
-	left:100px;
-	img {
-		width: 300px;
-		margin: 0 auto;
-		@media (max-width: 980px) {
-			width: 200px;
-		}
-	}
-}
-
-.application-text {
-	position: relative;
-	top: 150px;
-	h3 {
-		color: white;
-	}
-	p {
-		opacity: 0;
-	}
-	@media (max-width: 980px) {
-		position: relative;
-		top: 0px;
-	}
-}
-
-#video-presentation iframe {
-	height: 80vh;
-	width: 980px;
-	@media (max-width: 980px) {
-		width: 455px;
-		height: 355px;
 	}
 }
 

@@ -4,16 +4,27 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 .padded {
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.padded-top {
+  padding-top: 2em;
+}
+.margin-top {
+  margin-top:2em;
 }
 .bg-red {
   background: $red;
   color: white;
+  width:100%;
 }
 .bg-blue {
   background: $blue;
   color: white;
+  width:100%;
+  h2, h3 {
+  color: $yellow;
+  }
 }
 .bg-yellow {
   background: $yellow;
@@ -30,4 +41,97 @@
 .bg-purple {
   background: $purple;
   color: white;
+}
+
+.bg-white p {
+  color: $darkgray; 
+  font-weight: 300;
+}
+
+#questions li {
+  color: $darkgray; 
+  font-weight: 300;
+}
+
+.bg-grid {
+  background: url(../../images/grid.jpg);
+  width:100%;
+  p{
+    color: $darkgray; 
+    font-weight: 300;
+  }
+}
+
+.wrapper {
+  width : 100%;
+  height : 780px;
+  color:white;
+}
+
+h2, h3, h4, h5 {
+  color: $blue;
+}
+
+.avantages ul li img {
+  width: 100px;
+  height: 100px;
+}
+
+.avantages {
+  img {
+    margin-top: 50px;
+  }
+  h4 {
+    padding-top: 10px;
+  }
+  p {
+    padding-top: 10px;    
+  }
+}
+
+.testimonial {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid $blue;
+  height: 210px;
+  width: 300px;
+  padding-top: 15px;
+  margin:10px;
+  box-shadow: 1px 1px 1px rgba(110,110,110,0.5)
+}
+
+.img-testimonial {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width:100px;
+}
+
+.name-testimonial {
+  position: absolute;
+  top: 25px;
+  left: 130px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.note-testimonial {
+  position: absolute;
+  top: 60px;
+  left: 130px;
+  width: 150px;
+  color: darkgrey;
+}
+
+.quote-testimonial {
+  position: absolute;
+  top : 125px;
+  left: 10px;
+  width: 270px;
+}
+
+p span {
+  font-family: $header-font;
+  color: $blue;
 }

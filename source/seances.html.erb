@@ -1,0 +1,47 @@
+---
+title: Trouver une séance de sport accessible et sans contrainte !
+---
+
+<div id="body-seance"class="padded text-center">
+	<h1 class="padding-top">Trouve la séance de tes rêves ! </h1>
+	<p id="slogan">Choisis celle que tu préfères : c'est toujours <strong>6 € / personne</strong> pour 1h30 de bonheur</p>
+
+	<div id="seances">
+		<div class="container d-flex p-2">
+			<div class="row">
+				<ul class="list-inline">
+					<% data.seances.each do |seance| %>
+						<li class="col-xs-12 col-sm-6 col-md-4">
+							<div class="seance text-center">
+								<h3><%= seance.sport %></h3>
+								<p class="text-left">
+									<em><span>Le <%= seance.date %></span></em>
+								</p>
+								<p>
+									<em>"<%= seance.descriptif %>"</em>
+								</p>
+								<p id="seance-corps" class="text-left">
+									<span>Animateur :</span> <%= seance.name %> <br>
+									<span>Niveau :</span> <%= seance.niveau %> <br>
+									<span>Objectif :</span> <%= seance.objectif %> <br>
+								</p>
+								<p id="seance-lieu">
+									<%= link_to seance.lieu, seance.adresse, target: "_blank" %>
+								</p>
+								<div id="seance-carte">
+									<iframe width="100%" height="100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=fr&geocode=&q=Les+Rivets,+43160+LA+CHAISE-DIEU,+FRANCE(Saint+Jean+des+Quatre+Couronn%C3%A9s)@<%= seance.coordonnes %>&ie=UTF8&z=14&t=m&iwloc=addr&output=embed"></iframe>
+								</div>
+								<div id="seance-button">
+									<%= link_to "Je participe !", seance.typeform, class:"btn btn-primary btn-lg", data_mode:"3", target:"_blank" %>
+								</div>
+							</div>
+						</li>
+					<% end %>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+

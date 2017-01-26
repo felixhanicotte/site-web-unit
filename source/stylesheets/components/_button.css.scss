@@ -1,0 +1,15 @@
+.btn-primary:hover {
+	color: $yellow;
+	background: $blue;
+	font-family: $header-font;
+}
+
+.btn {
+	font-family:$header-font;
+}
+
+.btn-animateurs { 
+	@media (max-width: 580px) {
+		font-size: 15px;
+	}
+}

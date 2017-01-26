@@ -12,10 +12,28 @@
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
-
+    <!--  <meta name="description" content="Avec UNIT, trouvez vos séances de sport sans contrainte d'abonnement ni d'engagement à un prix accessible : 5,50€ en moyenne pour 1h30 de bonheur ! Plus d'excuses pour découvrir ou redécouvrir tous les sports dont vous avez envie... Essayez par vous-même !">  -->
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
     
+
+    <!-- Facebook 
+    <meta property="og:title" content="UNIT, le club de sport 2.0 !" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.unit-sport.fr/" />
+    <meta property="og:image" content="https://felixhanicotte.github.io/site-web-unit/images/background_anim.jpg" />
+    <meta property="og:description" content="Avec UNIT, trouvez vos séances de sport sans contrainte d'abonnement ni d'engagement à un prix accessible : 5,50€ en moyenne pour 1h30 de bonheur ! Plus d'excuses pour découvrir ou redécouvrir tous les sports dont vous avez envie... Essayez par vous-même !" />
+    <meta property="og:site_name" content="UNIT SPORT" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+-->
+    <!-- Twitter 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="UNIT, le club de sport 2.0 !">
+    <meta name="twitter:description" content="Avec UNIT, trouvez vos séances de sport sans contrainte d'abonnement ni d'engagement à un prix accessible : 5,50€ en moyenne pour 1h30 de bonheur ! Plus d'excuses pour découvrir ou redécouvrir tous les sports dont vous avez envie... Essayez par vous-même !">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image:src" content="https://felixhanicotte.github.io/site-web-unit/images/background_anim.jpg">
+-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
     <!--[if lt IE 9]>
@@ -26,7 +44,7 @@
 
   <body class="<%= page_classes %>">
     <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
-      <div class="container-fluid">
+      <div class=" navbar container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -36,7 +54,7 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'logo.svg' %>
+            <%= image_tag 'logo.png' %>
           <% end %>
         </div>
 
@@ -45,28 +63,90 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "/animateurs.html" do %>
+                Deviens Animateur 
               <% end %>
             </li>
             <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
+              <% link_to "/seances.html" do %>
+                Trouve ta séance 
               <% end %>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-              </ul>
-            </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <%= yield %>
+
+    <div id="footer" class="container bg-blue text-center">
+      <div class="row">
+        <div class="footer-div col-xs-6">
+          <h6 class="padding-top"> Contactez-nous :</h6>
+          <ul class="list-inline">
+            <li><a href="https://www.facebook.com/Unitsport/?ref=bookmarks" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCHw1LvL1QD0l22iti_WQ-mw" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+            <li><a href="#" title="contact@unit-sport.fr" data-toggle="modal" data-target="#modal-mail"><i class="fa fa-envelope-square" aria-hidden="true"></i></a></li>
+            <li><a href="tel:0664970404" title="06 64 97 04 04"><i class="fa fa-phone-square" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-div col-xs-6">
+          <h6 class="padding-top">Documents utiles :</h6>
+          <ul class="list-inline">
+            <li><% link_to "/questions.html" do %> FAQ <% end %></li>
+            <li><% link_to "/conditions_generales.html" do %> CGU <% end %></li>
+          </ul>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    <div id="copyrights" class="padded bg-blue text-center">
+        <p>
+          Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by UNIT
+          <br>Copyrights UNIT SARL 2017
+          <br>Icon made by Freepik from www.flaticon.com
+        </p>
+    </div>
+
+  <!-- modal-mail -->
+    <div class="modal fade" id="modal-mail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Contacte-nous !</h4>
+          </div>
+          <div class="modal-body">
+            <form action="https://formspree.io/contact@unit-sport.fr" method="post" class="has-primary">
+              <div class="row">
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" class="form-control" name="Prénom" id="prenom" placeholder="Zinédine">
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" class="form-control" name="Nom" id="nom" placeholder="Zidane"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Adresse mail</label>
+                <input type="email" name="Mail" class="form-control" id="email" placeholder="zinédine.zidane@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="corps-message">Ton message</label>
+                <textarea id="corps-message" class="form-control" name="Message" rows="3" placeholder="Vide ton sac !"></textarea>
+              </div>
+              <input type="submit" value="Envoie ton message !" class="btn btn-primary">
+              <input type="hidden" name="_subject" value="Site WEB - Nouveau message" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
