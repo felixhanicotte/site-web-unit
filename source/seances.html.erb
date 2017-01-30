@@ -29,7 +29,8 @@ title: Trouver une séance de sport accessible et sans contrainte !
 									<%= link_to seance.lieu, seance.adresse, target: "_blank" %>
 								</p>
 								<div id="seance-carte">
-									<iframe width="100%" height="100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=fr&geocode=&q=Les+Rivets,+43160+LA+CHAISE-DIEU,+FRANCE(Saint+Jean+des+Quatre+Couronn%C3%A9s)@<%= seance.coordonnes %>&ie=UTF8&z=14&t=m&iwloc=addr&output=embed"></iframe>
+									<iframe width="100%" height="100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:0" src="https://maps.google.com/maps?f=q&source=s_q&hl=fr&geocode=&q=Les+Rivets,+43160+LA+CHAISE-DIEU,+FRANCE(Saint+Jean+des+Quatre+Couronn%C3%A9s)@<%= seance.coordonnes %>&ie=UTF8&z=14&t=m&iwloc=addr&output=embed" allowfullscreen>
+									</iframe>
 								</div>
 								<div id="seance-button">
 									<%= link_to "Je participe !", seance.typeform, class:"btn btn-primary btn-lg", data_mode:"3", target:"_blank" %>
