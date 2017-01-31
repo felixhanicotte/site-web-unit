@@ -35,6 +35,11 @@
 			width: 180px;
 		}
 	}
+	@media (max-width:600px) {
+		img {
+			width:150px;
+		}
+	}
 }
 
 #quoi-anim {
