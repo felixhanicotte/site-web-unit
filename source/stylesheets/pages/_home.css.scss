@@ -7,6 +7,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 35vh;
+	width: 100%;
 	h1 {
 		font-size: 72px;
 		text-shadow: 1px 1px 3px #000;
@@ -68,10 +69,30 @@
 	left:100px;
 	img {
 		width: 300px;
-		margin: 0 auto;
 		@media (max-width: 980px) {
 			width: 200px;
 		}
+	}
+}
+
+#rechercher-photo {
+	width: 300px;
+	@media (max-width: 980px) {
+		width: 200px;
+	}
+}
+
+#reserver-photo {
+	width: 300px;
+	@media (max-width: 980px) {
+		width: 200px;
+	}
+}
+
+#avis-photo {
+	width: 300px;
+	@media (max-width: 980px) {
+		width: 200px;
 	}
 }
 

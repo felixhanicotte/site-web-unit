@@ -54,3 +54,24 @@
 	}
 }
 
+
+#accepter-photo {
+	width: 300px;
+	@media (max-width: 980px) {
+		width: 200px;
+	}
+}
+
+#poster-photo {
+	width: 300px;
+	@media (max-width: 980px) {
+		width: 200px;
+	}
+}
+
+#payer-photo {
+	width: 300px;
+	@media (max-width: 980px) {
+		width: 200px;
+	}
+}
