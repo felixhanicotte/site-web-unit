@@ -1,3 +1,13 @@
+- name: Edouard
+  sport: Fitness / Muscu
+  niveau: Niveau intermédiaire
+  objectif: (re)Mise en forme
+  descriptif: Séance de renforcement musculaire global basée sur des exercices en coopération et en opposition
+  date: 13 février à 10h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  typeform: https://unitsport.typeform.com/to/phHhzH
+  coordonnes: 45.778012,4.8460005
 - name: Jean
   sport: Fitness / Muscu
   niveau: Tous niveaux
@@ -8,4 +18,5 @@
   adresse: https://www.google.fr/maps/place/45%C2%B046'52.5%22N+4%C2%B051'48.1%22E/@45.78124,4.8626287,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.78124!4d4.86336
   typeform: https://unitsport.typeform.com/to/mX8VTf
   coordonnes: 45.78124,4.8626287
+
 
