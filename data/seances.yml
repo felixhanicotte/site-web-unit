@@ -1,6 +1,6 @@
 - name: Edouard
   sport: Fitness / Muscu
-  niveau: Niveau intermédiaire
+  niveau: Intermédiaire
   objectif: (re)Mise en forme
   descriptif: Séance de renforcement musculaire global basée sur des exercices en coopération et en opposition
   date: 13 février à 10h
@@ -18,5 +18,14 @@
   adresse: https://www.google.fr/maps/place/45%C2%B046'52.5%22N+4%C2%B051'48.1%22E/@45.78124,4.8626287,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.78124!4d4.86336
   typeform: https://unitsport.typeform.com/to/mX8VTf
   coordonnes: 45.78124,4.8626287
-
+- name: Benjamin
+  sport: Running
+  niveau: Intermédiaire
+  objectif: Dépassement de soi
+  descriptif: Travail basé sur l'amélioration des qualités du système cardio-vasculaire incluant du fartlek
+  date: 15 février à 10 h 30
+  lieu: Piste d'athlé de l'INSA
+  adresse: https://www.google.fr/maps/place/Terrain+multi+sports+INSA+Lyon,+69100+Villeurbanne/@45.7855268,4.875552,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x47f4c01e2f6eac5f:0x6d6e5b21cf436ff7!2sRue+des+Sports,+69100+Villeurbanne!3b1!8m2!3d45.7843134!4d4.8771028!3m4!1s0x47f4c01e7409a42b:0x2bc3e92361ef88a0!8m2!3d45.7855153!4d4.8778181
+  typeform: https://unitsport.typeform.com/to/EaTSZq
+  coordonnes: 45.7855268,4.875552
 
