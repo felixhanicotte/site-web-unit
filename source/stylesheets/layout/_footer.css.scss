@@ -1,8 +1,6 @@
 // Your footer style
 
 #footer {
-	display: flex;
-	justify-content: space-around;
 	color: white;
 	i {
 	font-size: 40px;
@@ -22,8 +20,10 @@
 }
 
 .footer-div {
-	width: 300px;
-	flex: 0 0 400px;
+	width:50%;
+	@media (max-width:610px) {
+		width:100%;
+	}
 }
 
 #copyrights {
