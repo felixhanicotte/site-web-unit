@@ -1,12 +1,3 @@
-- name: Jean N.
-  sport: Fitness / Muscu
-  niveau: Débutant
-  objectif: Minceur
-  descriptif: Un sympathique mélange de cardio et de renforcement musculaire sous forme de petits circuits comprenant plusieurs exercices.
-  date: vendredi 24 février à 17h30
-  lieu: Porte de enfants du Rhône
-  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
-  coordonnes: 45.776912,4.8450005
 - name: Edouard B.
   sport: Cardio / Muscu
   niveau: Intermédiaire
