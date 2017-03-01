@@ -1,9 +1,36 @@
-- name: Jean-Baptiste C.
-  sport: Plyométrie
+- name: Edouard B.
+  sport: Gym douce
+  niveau: Débutant
+  objectif: (re)Mise en forme
+  descriptif: Séance douce de renforcement musculaire adaptée aux débutants et personnes en reprise d'activité physique. Abdos et squats au programme
+  date: samedi 4 mars à 15h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+- name: Lucas R.
+  sport: Cardio / Training
   niveau: Intermédiaire
-  objectif: Dépassement de soi
-  descriptif: Combinaison de différents sauts et des différents types de course dans des escaliers. Idéal pour remise en forme ou entrainement running
-  date: mercredi 1er mars à 12h15
-  lieu: Pente de la croix rousse
-  adresse: https://www.google.com/maps/place/Croix-Paquet/@45.7710335,4.8349916,18z/data=!4m5!3m4!1s0x47f4eafb86a449a3:0x3a77393ce3e6eb03!8m2!3d45.7705989!4d4.8363233?hl=fr
-  coordonnes: 45.7710335,4.8357916
+  objectif: (re)Mise en forme
+  descriptif: Séance cardio et renforcement musculaire pour sportifs de niveau intermédiaire à bon. Ne pas prévoir de vestiaire 
+  date: dimanche 5 mars à 10h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+- name: Jean-Baptiste C.
+  sport: Tennis
+  niveau: Intermédiaire
+  objectif: Divertissement
+  descriptif: Quelques conseils experts pour ceux qui ont déjà tapé la balle. Prévoyez vos raquettes et vos balles, et votre plus beau bandeau :) 
+  date: mardi 7 mars à 14h
+  lieu: Cours de l'université Lyon I
+  adresse: https://www.google.fr/maps/place/45%C2%B046'56.9%22N+4%C2%B051'41.8%22E/@45.782483,4.8594303,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.782483!4d4.861619
+  coordonnes: 45.782283,4.8619303
+- name: Edouard B.
+  sport: Cardio / Muscu
+  niveau: Intermédiaire
+  objectif: (re)Mise en forme
+  descriptif: Séance cardio et renforcement musculaire pour sportifs de niveau intermédiaire à bon. Ne pas prévoir de vestiaire 
+  date: jeudi 9 mars à 11h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
