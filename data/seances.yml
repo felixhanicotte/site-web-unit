@@ -1,21 +1,3 @@
-- name: Jean-Baptiste C.
-  sport: Tennis
-  niveau: Intermédiaire
-  objectif: Divertissement
-  descriptif: Quelques conseils experts pour ceux qui ont déjà tapé la balle. Prévoyez vos raquettes et vos balles, et votre plus beau bandeau :) 
-  date: samedi 18 mars à 14h
-  lieu: Cours de l'université Lyon I
-  adresse: https://www.google.fr/maps/place/45%C2%B046'56.9%22N+4%C2%B051'41.8%22E/@45.782483,4.8594303,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.782483!4d4.861619
-  coordonnes: 45.782283,4.8619303
-- name: Edouard B.
-  sport: Gym douce
-  niveau: Débutant
-  objectif: (re)Mise en forme
-  descriptif: Séance douce de renforcement musculaire adaptée aux débutants et personnes en reprise d'activité physique. Abdos et squats au programme
-  date: samedi 18 mars à 16h
-  lieu: Porte de enfants du Rhône
-  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
-  coordonnes: 45.776912,4.8450005
 - name: Edouard B.
   sport: Gym douce
   niveau: Débutant
@@ -43,3 +25,79 @@
   lieu: Porte de enfants du Rhône
   adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
   coordonnes: 45.776912,4.8450005
+- name: Jean-Baptiste C.
+  sport: Tennis
+  niveau: Intermédiaire
+  objectif: Divertissement
+  descriptif: Quelques conseils experts pour ceux qui ont déjà tapé la balle. Prévoyez vos raquettes et vos balles, et votre plus beau bandeau :) 
+  date: mardi 21 mars à 12h15
+  lieu: Cours de l'université Lyon I
+  adresse: https://www.google.fr/maps/place/45%C2%B046'56.9%22N+4%C2%B051'41.8%22E/@45.782483,4.8594303,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.782483!4d4.861619
+  coordonnes: 45.782283,4.8619303
+- name: Edouard B.
+  sport: Gym douce
+  niveau: Débutant
+  objectif: (re)Mise en forme
+  descriptif: Séance douce de renforcement musculaire adaptée aux débutants et personnes en reprise d'activité physique. Abdos et squats au programme
+  date: mardi 21 mars à 18h30
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+- name: Lucas R.
+  sport: Cardio / Training
+  niveau: Intermédiaire
+  objectif: (re)Mise en forme
+  descriptif: Séance cardio et renforcement musculaire pour sportifs de niveau intermédiaire à bon. Ne pas prévoir de vestiaire 
+  date: mercredi 22 mars à 19h30
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+- name: Jean-Baptiste C.
+  sport: Plyométrie
+  niveau: Intermédiaire
+  objectif: Dépassement de soi
+  descriptif: Combinaison de différents sauts et des différents types de course dans des escaliers. Idéal pour remise en forme ou entrainement running
+  date: jeudi 23 mars à 12h15
+  lieu: Parc blandan
+  adresse: https://www.google.fr/maps/place/70+Boulevard+des+Tch%C3%A9coslovaques,+69007+Lyon/@45.7444971,4.8555165,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4ea6d4ff9c9cb:0x89b02871b234df2d!8m2!3d45.7444971!4d4.8577052
+  coordonnes: 45.7444971,4.8555165
+- name: Edouard B.
+  sport: Gym douce
+  niveau: Débutant
+  objectif: (re)Mise en forme
+  descriptif: Séance douce de renforcement musculaire adaptée aux débutants et personnes en reprise d'activité physique. Abdos et squats au programme
+  date: vendredi 24 mars à 9h30
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+- name: Jean-Louis B.
+  sport: Running / Fractionné
+  niveau: Intermédiaire
+  objectif: Dépassement de soi
+  descriptif: Séance de running avec exercices de fractionné à forte intensité. Idéal pour la progression ou la préparation d'objectif.
+  date: vendredi 24 mars à 18h
+  lieu: Porte des enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+- name: Lucas R.
+  sport: Cardio / Training
+  niveau: Intermédiaire
+  objectif: (re)Mise en forme
+  descriptif: Séance cardio et renforcement musculaire pour sportifs de niveau intermédiaire à bon. Ne pas prévoir de vestiaire 
+  date: samedi 25 mars à 14h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+- name: Edouard B.
+  sport: Gym douce
+  niveau: Débutant
+  objectif: (re)Mise en forme
+  descriptif: Séance douce de renforcement musculaire adaptée aux débutants et personnes en reprise d'activité physique. Abdos et squats au programme
+  date: dimanche 26 mars à 10h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+
+
+
+
