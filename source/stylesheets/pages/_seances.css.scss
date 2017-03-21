@@ -39,11 +39,15 @@
 	width:300px;
 	p {
 		color:$darkgray;
+		font-size: 15px;
 	}
 
 	span {
 		color:$blue;
 		font-family:'Montserrat'
+	}
+	a {
+		text-decoration: none;
 	}
 }
 
@@ -59,27 +63,48 @@
 
 #seance-button {
 	position:absolute;
-	bottom:20px;
+	bottom:22px;
 	left:76px;
 }
 
 #seance-carte {
 	position:absolute;
-	bottom:90px;
+	bottom:130px;
 	padding-right:10px;
 }
 
 #seance-lieu {
 	position:absolute;
-	bottom:195px;
+	bottom:235px;
 }
 
 #seance-corps {
 	position:absolute;
-	bottom:233px;
+}
+
+#seance-infos {
+	font-size:13px;
 }
 
 #seance_descriptif {
-	font-size: 14px;
+	font-size: 13px;
+	position: absolute;
+	top:145px;
+	width: 190px;
+	left:95px;
 }
 
+#seance-image {
+	img {
+		width:75px;
+		height: 75px;
+		position: absolute;
+		left:10px;
+		top:145px;
+	}
+}
+
+#seance-places {
+	position: absolute;
+	bottom:80px;
+}

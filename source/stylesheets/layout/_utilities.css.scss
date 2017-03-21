@@ -83,7 +83,7 @@ h2, h3, h4, h5 {
   color: $blue;
 }
 
-.avantages ul li img {
+.avantages li img {
   width: 100px;
   height: 100px;
 }
@@ -145,4 +145,26 @@ h2, h3, h4, h5 {
 p span {
   font-family: $header-font;
   color: $blue;
+}
+
+.fleche-white {
+  font-size: 90px;
+  a {
+    color: white;
+  }
+}
+
+.fleche-wrapper {
+  position:relative;
+  top:140px;
+  a {
+    text-shadow:1px 1px 1px #000;
+  }
+}
+
+.fleche-blue {
+  font-size: 90px;
+  a {
+    color: $blue;
+  }
 }
