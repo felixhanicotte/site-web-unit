@@ -3,42 +3,6 @@
   niveau: Débutant
   objectif: (re)Mise en forme
   descriptif: Séance de renforcement musculaire adaptée aux débutants et personnes en reprise d'activité physique.
-  date: vendredi 24 mars à 9h30
-  lieu: Porte de enfants du Rhône
-  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
-  coordonnes: 45.776912,4.8450005
-  image: edouard.jpg
-  place: 2
-  typeform: https://unitsport.typeform.com/to/QrWuUU
-- name: Jean-Louis B.
-  sport: Running 
-  niveau: Intermédiaire
-  objectif: Dépassement de soi
-  descriptif: Séance de running avec exercices de fractionné à forte intensité. Idéal progression / préparation d'objectif.
-  date: vendredi 24 mars à 18h
-  lieu: Porte des enfants du Rhône
-  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
-  coordonnes: 45.776912,4.8450005
-  image: hugo.jpg
-  place: 6
-  typeform: https://unitsport.typeform.com/to/qMlscy
-- name: Lucas R.
-  sport: Cardio / Training
-  niveau: Intermédiaire
-  objectif: (re)Mise en forme
-  descriptif: Séance cardio et renforcement musculaire pour sportifs de niveau intermédiaire à bon. 
-  date: samedi 25 mars à 14h
-  lieu: Porte de enfants du Rhône
-  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
-  coordonnes: 45.776912,4.8450005
-  image: paul.jpg
-  place: 5
-  typeform: https://unitsport.typeform.com/to/ydn7jq
-- name: Edouard B.
-  sport: Gym douce
-  niveau: Débutant
-  objectif: (re)Mise en forme
-  descriptif: Séance de renforcement musculaire adaptée aux débutants et personnes en reprise d'activité physique.
   date: dimanche 26 mars à 10h
   lieu: Porte de enfants du Rhône
   adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
