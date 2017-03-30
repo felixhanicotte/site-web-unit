@@ -34,6 +34,30 @@
   image: paul.jpg
   place: 5
   typeform: https://unitsport.typeform.com/to/Ri5vFG
+- name: Edouard B.
+  sport: Fitness
+  niveau: Débutant
+  objectif: Initiation
+  descriptif: Séance alliant postures fixes et musculation avec le poids du corps pour rester tonique et gainer son corps
+  date: samedi 1er avril à 18h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+  image: edouard.jpg
+  place: 8
+  typeform: https://unitsport.typeform.com/to/hPQqCV
+- name: Edouard B.
+  sport: Pilates
+  niveau: Débutant
+  objectif: Initiation
+  descriptif: Renforcement musculaire en douceur pour faire travailler les muscles profonds et avoir meilleure posture
+  date: dimanche 2 avril à 10h
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+  image: edouard.jpg
+  place: 6
+  typeform: https://unitsport.typeform.com/to/Ji1Y4e
 - name: Agathe F.
   sport: Boxe
   niveau: Débutant
@@ -58,7 +82,54 @@
   image: paul.jpg
   place: 4
   typeform: https://unitsport.typeform.com/to/nksDpH
-
+- name: Jean-Louis B.
+  sport: Running 
+  niveau: Intermédiaire
+  objectif: Dépassement de soi
+  descriptif: Séance de running avec exercices de fractionné à forte intensité. Idéal progression / préparation d'objectif.
+  date: mardi 4 avril à 18h30
+  lieu: Sport dans la ville
+  adresse: https://www.google.fr/maps/place/Sport+dans+la+Ville+-+Rh%C3%B4ne-Alpes/@45.7811753,4.8055947,17z/data=!4m12!1m6!3m5!1s0x47f4eb6b720341a1:0x6a43c210eab3b020!2sSport+dans+la+Ville+-+Rh%C3%B4ne-Alpes!8m2!3d45.7811753!4d4.8077834!3m4!1s0x47f4eb6b720341a1:0x6a43c210eab3b020!8m2!3d45.7811753!4d4.8077834
+  coordonnes: 45.7811753,4.8055947
+  image: hugo.jpg
+  place: 6
+  typeform: https://unitsport.typeform.com/to/awSK8y
+- name: Michael P.
+  sport: Tennis
+  niveau: Intermédiaire
+  objectif: Divertissement
+  descriptif: Quelques conseils experts pour ceux qui ont déjà tapé la balle. Prévoyez raquettes et votre plus beau bandeau :) 
+  date: mercredi 5 avril à 16h
+  lieu: Cours de l'université Lyon I
+  adresse: https://www.google.fr/maps/place/45%C2%B046'56.9%22N+4%C2%B051'41.8%22E/@45.782483,4.8594303,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d45.782483!4d4.861619
+  coordonnes: 45.782283,4.8619303
+  image: michael.jpg
+  place: 6
+  typeform: https://unitsport.typeform.com/to/XLveb9
+- name: Edouard B.
+  sport: Basketball
+  niveau: Débutant
+  objectif: Divertissement
+  descriptif: Séance ludique de basket composée de petits jeux et de shoots pour progresser ou découvrir ce sport. 
+  date: mercredi 5 avril à 17h30
+  lieu: Manufacture des tabacs
+  adresse: https://www.google.fr/maps/place/Terrain+de+Basket+Ball+Colbert+Chapuy,+Boulevard+des+Tch%C3%A9coslovaques,+69008+Lyon/@45.7462847,4.8575585,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4ea7261f3683d:0xa7957107a73a7525!8m2!3d45.7462737!4d4.8598046
+  coordonnes: 45.7462847,4.8593585
+  image: edouard.jpg
+  place: 8
+  typeform: https://unitsport.typeform.com/to/aemh5t
+- name: Lucas R.
+  sport: Cardio / Training
+  niveau: Intermédiaire
+  objectif: (re)Mise en forme
+  descriptif: Une séance complète alternant cardio et musuclation pour travailler tout le corps à la fois
+  date: jeudi 6 avril à 18h30
+  lieu: Porte de enfants du Rhône
+  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
+  coordonnes: 45.776912,4.8450005
+  image: paul.jpg
+  place: 8
+  typeform: https://unitsport.typeform.com/to/zd6tli
 
 
 
