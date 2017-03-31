@@ -1,27 +1,3 @@
-- name: Edouard B.
-  sport: Pilates
-  niveau: Débutant
-  objectif: Initiation
-  descriptif: Renforcement musculaire en douceur pour faire travailler les muscles profonds et avoir meilleure posture
-  date: jeudi 30 mars à 18h30
-  lieu: Porte de enfants du Rhône
-  adresse: https://www.google.fr/maps/place/Porte+des+Enfants+du+Rh%C3%B4ne/@45.778012,4.8460005,17z/data=!4m5!3m4!1s0x0:0xa79a7c343e94ca03!8m2!3d45.7772281!4d4.8452121
-  coordonnes: 45.776912,4.8450005
-  image: edouard.jpg
-  place: 3
-  typeform: https://unitsport.typeform.com/to/FKeXH0
-- name: Lucas R.
-  sport: Sophrologie
-  niveau: Débutant
-  objectif: Découverte
-  descriptif: Séance relaxation / méditation pour apaiser vos tensions et retrouver une harmonie corps/esprit
-  date: vendredi 31 mars à 12h15
-  lieu: Parc blandan
-  adresse: https://www.google.fr/maps/place/70+Boulevard+des+Tch%C3%A9coslovaques,+69007+Lyon/@45.7444971,4.8555165,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4ea6d4ff9c9cb:0x89b02871b234df2d!8m2!3d45.7444971!4d4.8577052
-  coordonnes: 45.7444971,4.8555165
-  image: paul.jpg
-  place: 4
-  typeform: https://unitsport.typeform.com/to/nsngul
 - name: Lucas R.
   sport: Cardio / Training
   niveau: Intermédiaire
